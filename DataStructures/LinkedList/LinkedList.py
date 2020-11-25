@@ -78,13 +78,3 @@ class LinkedList(object):
         a = True
         while a:
             a = self.RemoveValue(value)
-
-
-a = [16, 5, 32, 98, 12, 12, 12, 12, 12, 94, 91, 20, 22, 50, 47, 44, 2, 1, 28, 86, 66, 96, 85, 92]
-myList = LinkedList(a)
-myList.PrintList()
-myList.RemoveAllPositionsOfValue(12)
-myList.PrintList()
-myList.AddToBeginning(0)
-myList.PrintList()
-
