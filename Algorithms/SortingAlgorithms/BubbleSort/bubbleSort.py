@@ -12,7 +12,3 @@ def bubbleSort(array):
       if not change: return array    
    return array
 
-#--testing--
-arr = [1,3,4,4,3,3,2,2,1,1,1,1,1,0]
-arr2 = bubbleSort(arr)
-print(arr2)
